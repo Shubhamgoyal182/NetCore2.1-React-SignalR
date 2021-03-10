@@ -17,8 +17,7 @@ From the above command you will be able to install SignalR package in your proje
     
 	services.AddSignalR();
 	
-#####Hub
-
+##### Hub
 SignalR uses hubs to connect your api with a client web api. For this, we have created a new SignalR Hub which is very straight forward. Create a new class called MessageHub which will inherit the Hub Class.
 
     using Microsoft.AspNetCore.SignalR;
