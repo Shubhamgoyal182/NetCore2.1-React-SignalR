@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.SignalR;
 using Notify.Api.Hubs;
+using Notify.Api.Model;
 
 namespace Notify.Api.Controllers
 {
@@ -27,9 +28,5 @@ namespace Notify.Api.Controllers
             return Ok();
         }
     }
-
-    public class MessagePost
-    {
-        public virtual string Message { get; set; }
-    }
+    
 }
