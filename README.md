@@ -37,7 +37,8 @@ At last, we need to register our hub to a route. The Client will use this route 
 	});
 This routes the MessageHub to /message.
 
-#####Send Message API
+##### Send Message API
+
 Now we have to create an endpoint to fire our messages. for this we have create a controller called MessageController.
 Here inside Create method we have injected MessageHub through DI through the IHubContext interface, now this will send a message to all clients that are listening to event "sendToClient”.
 		
