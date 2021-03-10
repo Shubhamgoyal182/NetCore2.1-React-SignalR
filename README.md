@@ -13,12 +13,12 @@ See the [documentation](https://docs.microsoft.com/aspnet/signalr/overview/getti
     Install-Package Microsoft.AspNetCore.SignalR.Core -Version 1.0.15
 	
 #### ASP.NET Core 2.1 Integration
-From the above command you will be able to install SignalR package in your project. SignalR middlware requires some services which we have done by  making changes in our Startup class. Inside your ConfigureServices method, add the following code	:
+From the above command, you will be able to install the SignalR package in your project. SignalR middleware requires some services which we have done by making changes in our Startup class. Inside your ConfigureServices method, add the following code :
     
 	services.AddSignalR();
 	
 ##### Hub
-SignalR uses hubs to connect your api with a client web api. For this, we have created a new SignalR Hub which is very straight forward. Create a new class called MessageHub which will inherit the Hub Class.
+SignalR uses hubs to connect your API with a client web API. For this, we have created a new SignalR Hub which is very straightforward. Create a new class called MessageHub which will inherit the Hub Class.
 
     using Microsoft.AspNetCore.SignalR;
 
