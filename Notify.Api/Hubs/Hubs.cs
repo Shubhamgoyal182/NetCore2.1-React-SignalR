@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-using Microsoft.AspNetCore.SignalR;
-using Notify.Api.Model;
+﻿using Microsoft.AspNetCore.SignalR;
 
 namespace Notify.Api.Hubs
 {

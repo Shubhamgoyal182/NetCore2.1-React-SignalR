@@ -48,7 +48,6 @@ namespace Notify.Api
             app.UseSignalR(routes =>
             {
                 routes.MapHub<MessageHub>("/message");
-                //routes.MapControllers();
             });
 
             app.UseSpa(spa =>
